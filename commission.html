@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的佣金详情</title>
+    <style>
+        /* 简单模仿 SAP Fiori Horizon 主题风格 */
+        body {
+            font-family: "72", "Arial", sans-serif;
+            background-color: #f5f6f7;
+            margin: 0;
+            padding: 20px;
+            color: #32363a;
+        }
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 2px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            border-left: 6px solid #0070f2; /* SAP Blue */
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: normal;
+        }
+        .subtitle {
+            color: #6a6d70;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #fff;
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .kpi-title {
+            font-size: 14px;
+            color: #6a6d70;
+            margin-bottom: 10px;
+        }
+        .kpi-value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #0070f2;
+        }
+        .kpi-unit {
+            font-size: 16px;
+            color: #32363a;
+        }
+        .table-section {
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th {
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 10px 0;
+            color: #6a6d70;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        td {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 14px;
+        }
+        .status-paid {
+            color: #107e3e; /* Green */
+            background: #eaf7ed;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>佣金概览 (Commissions)</h1>
+        <div class="subtitle">数据更新至: 2023年10月</div>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="kpi-title">本月实发佣金</div>
+            <div class="kpi-value">12,500 <span class="kpi-unit">CNY</span></div>
+        </div>
+        <div class="card">
+            <div class="kpi-title">年度累计佣金 (YTD)</div>
+            <div class="kpi-value">148,000 <span class="kpi-unit">CNY</span></div>
+        </div>
+        <div class="card">
+            <div class="kpi-title">待结算金额</div>
+            <div class="kpi-value" style="color:#e9730c">3,200 <span class="kpi-unit">CNY</span></div>
+        </div>
+    </div>
+
+    <div class="table-section">
+        <div class="kpi-title" style="font-size:16px; color:#32363a; font-weight:bold;">近期发放明细</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>周期</th>
+                    <th>类型</th>
+                    <th>金额 (CNY)</th>
+                    <th>状态</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023-10</td>
+                    <td>销售提成 - Q3 奖金</td>
+                    <td>12,500.00</td>
+                    <td><span class="status-paid">已发放</span></td>
+                </tr>
+                <tr>
+                    <td>2023-09</td>
+                    <td>月度绩效佣金</td>
+                    <td>8,200.00</td>
+                    <td><span class="status-paid">已发放</span></td>
+                </tr>
+                <tr>
+                    <td>2023-08</td>
+                    <td>新客户签约奖</td>
+                    <td>5,000.00</td>
+                    <td><span class="status-paid">已发放</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
