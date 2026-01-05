@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Increase Q4 New Customer Acquisition",
+    "percentageComplete": 85,
+    "dueDate": "2025-12-31",
+    "status": "A",
+    "metric": "Count",
+    "target": 120,
+    "actual": 102,
+    "currency": "",
+    "category": "Sales"
+  },
+  {
+    "name": "Complete SAP S/4HANA Cloud Implementation Training",
+    "percentageComplete": 100,
+    "dueDate": "2025-11-30",
+    "status": "C",
+    "metric": "Completion",
+    "target": 100,
+    "actual": 100,
+    "currency": "",
+    "category": "Learning & Development"
+  },
+  {
+    "name": "Reduce Invoice Processing Cycle Time",
+    "percentageComplete": 62,
+    "dueDate": "2026-03-31",
+    "status": "A",
+    "metric": "Days",
+    "target": 5,
+    "actual": 6.9,
+    "currency": "",
+    "category": "Process Excellence"
+  },
+  {
+    "name": "Employee Engagement Survey Score",
+    "percentageComplete": 78,
+    "dueDate": "2025-09-30",
+    "status": "A",
+    "metric": "Percentage",
+    "target": 85,
+    "actual": 78,
+    "currency": "",
+    "category": "HR"
+  },
+  {
+    "name": "Annual Revenue from New Products",
+    "percentageComplete": 110,
+    "dueDate": "2025-12-31",
+    "status": "C",
+    "metric": "USD",
+    "target": 2500000,
+    "actual": 2750000,
+    "currency": "USD",
+    "category": "Finance"
+  }
+]
