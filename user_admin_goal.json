@@ -1,7 +1,6 @@
-
-  {
-    "name": "Q4 Revenue Target",
-    "percentageComplete": 95,
-    "dueDate": "2025-12-31",
-    "color": "#388e3c"
-  }
+{
+  "name": "Q4 Revenue Target",
+  "percentageComplete": 95,
+  "dueDate": "2025-12-31",
+  "color": "#388e3c"
+}
