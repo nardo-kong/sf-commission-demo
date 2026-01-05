@@ -1,5 +1,20 @@
 [
-  { "name": "Q4 Revenue Target", "percentageComplete": 95, "dueDate": "2025-12-31" },
-  { "name": "Customer Satisfaction", "percentageComplete": 78, "dueDate": "2025-12-15" },
-  { "name": "Learn SAP Build", "percentageComplete": 45, "dueDate": "2025-11-30" }
+  {
+    "name": "Q4 Revenue Target",
+    "percentageComplete": 95,
+    "dueDate": "2025-12-31",
+    "color": "#388e3c"
+  },
+  {
+    "name": "Customer Satisfaction",
+    "percentageComplete": 78,
+    "dueDate": "2025-12-15",
+    "color": "#ffa000"
+  },
+  {
+    "name": "Learn SAP Build",
+    "percentageComplete": 42,
+    "dueDate": "2025-11-30",
+    "color": "#d32f2f"
+  }
 ]
