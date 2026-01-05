@@ -1,0 +1,18 @@
+{
+  "period": "2025-12",
+  "currency": "CNY",
+  "totalAmount": "15,800.00",
+  "status": "已发放",
+  "statusState": "Success",
+  "updateTime": "2025-12-28",
+  "details": {
+    "base": "8,000.00",
+    "kpiBonus": "5,000.00",
+    "specialReward": "2,800.00",
+    "tax": "-1,200.00"
+  },
+  "manager": {
+    "name": "张经理",
+    "comment": "Q4 业绩非常出色！"
+  }
+}
